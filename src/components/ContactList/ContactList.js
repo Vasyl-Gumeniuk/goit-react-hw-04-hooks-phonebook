@@ -13,7 +13,7 @@ const ContactList = ({ getVisibleContacts, deleteContact }) => {
               <button
                 type="button"
                 className={styles.btn}
-                onClick={evt => deleteContact(evt)}
+                onClick={e => deleteContact(e)}
               >
                 Delete
               </button>
